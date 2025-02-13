@@ -49,7 +49,7 @@ pip install --upgrade pip
 pip install flask flask_cors gdown
 
 # Jalankan Aplikasi di dalam tmux session
-echo "Starting application in tmux session 'badutstream'..."
+echo "Starting application in tmux session 'badutsreamfinal'..."
 tmux new-session -d -s badutsreamfinal "source $(pwd)/venv/bin/activate && python3 app.py"
 
-echo "Application started in tmux session 'badutstream'. To attach the session, run: tmux attach-session -t badutstream"
+echo "Application started in tmux session 'badutstream'. To attach the session, run: tmux attach-session -t badutsreamfinal"
